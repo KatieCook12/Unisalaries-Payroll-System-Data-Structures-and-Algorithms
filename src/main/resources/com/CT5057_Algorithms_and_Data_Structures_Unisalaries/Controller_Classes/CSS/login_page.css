@@ -1,0 +1,28 @@
+/* Styles the text field boxes when clicked */
+.text-field:focused {
+    -fx-text-box-border:#FFFFFF;
+    -fx-border-color: #4b936c;
+}
+
+/* Styles the text field input boxes */
+.text-field
+{
+    -fx-prompt-text-fill: #465058;
+    -fx-text-inner-color:#FBFCFC;
+    -fx-font-size:15px;
+    -fx-border-radius: 4px;
+    -fx-background-color: #2A363F;
+    -fx-border-color: #465058;
+}
+
+/* Styles buttons when hovered over */
+.button:hover{
+    -fx-background-color: #4b936c;
+}
+
+/* Sets the background colour of buttons */
+.button{
+    -fx-background-color: #6ED9A0;
+}
+
+

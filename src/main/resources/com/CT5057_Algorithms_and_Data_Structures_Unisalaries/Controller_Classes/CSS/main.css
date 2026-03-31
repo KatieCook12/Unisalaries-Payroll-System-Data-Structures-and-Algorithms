@@ -1,0 +1,84 @@
+/* Styles the text field boxes when clicked */
+.text-field:focused {
+    -fx-text-box-border:#FFFFFF;
+    -fx-border-color: #pink;
+    -fx-text-fill: #2A363F;
+}
+
+/* Styles the text field input boxes */
+.text-field
+{
+    -fx-prompt-text-fill: #465058;
+    -fx-font-size:15px;
+    -fx-border-radius: 4px;
+}
+
+/* Styles the upload button when hovered over */
+.uploadButton:hover{
+    -fx-background-color: #4b936c;
+}
+
+/* Sets the background colour of the upload button */
+.uploadButton{
+    -fx-background-color: #6ED9A0;
+}
+
+/* Styles the navigation buttons when hovered over */
+.navButton:hover{
+    -fx-background-color: #2A363F;
+    -fx-text-fill: #a8a8a8;
+}
+
+/* Sets the background colour of the navigation button */
+.navButton{
+    -fx-background-color: #2A363F;
+}
+
+.table-view .column-header {
+    -fx-background-color: #6ED9A0;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: #2A363F;
+}
+
+/** add slight dividers between headers */
+.table-view .column-header {
+    -fx-border-color: #6ED9A0;
+    -fx-border-width: 1
+}
+
+/** color the scroll bar background and thumb */
+.table-view .scroll-bar {
+    -fx-background-color:  white;
+}
+.table-view .scroll-bar .thumb {
+    -fx-background-color:  #6ED9A0;
+}
+
+/**
+ * For styling only the "+" button on the right top corner
+ */
+.table-view > .column-header-background > .show-hide-columns-button {
+    -fx-background-color: #2A363F;
+}
+
+/* Styles combo boxes */
+.combo-box{
+    -fx-prompt-text-fill: #465058;
+    -fx-font-size:15px;
+}
+
+.combo-box-base:hover{
+    -fx-border-color: #4b936c;
+    -fx-text-fill: #2A363F;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #6ED9A0;
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: #2A363F;
+}
+

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.CT5057_Algorithms_and_Data_Structures_Unisalaries.Contro
+ ller_Classes.Launcher
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="284.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="238.0" layoutY="40.0" prefHeight="37.0" prefWidth="109.0" text="About Us">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="83.0" layoutY="132.0" lineSpacing="8.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At Unisalaries, we understand that managing employee’s payrolls can be a complex and time-consuming task for any business. That's why we've created a comprehensive payroll system to simplify and streamline the process. Employers can manage their employee’s credentials whilst automating the process of creating bespoke payslips. " textAlignment="CENTER" wrappingWidth="418.75732803344727">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

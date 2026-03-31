@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onKeyPressed="#keyEvents" prefHeight="660.0" prefWidth="933.0" style="-fx-background-color: fffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.CT5057_Algorithms_and_Data_Structures_Unisalaries.Controller_Classes.Main_Menu_Page">
+   <children>
+      <Group />
+      <Pane prefHeight="660.0" prefWidth="200.0" style="-fx-background-color: #2A363F;">
+         <children>
+            <Group>
+               <children>
+                  <Pane prefHeight="110.0" prefWidth="200.0" style="-fx-background-color: #2A363F;">
+                     <children>
+                        <Button layoutX="17.0" layoutY="36.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="166.0" styleClass="navButton" stylesheets="@../CSS/main.css" text="Add Employee (A)" textFill="#d7d7d7">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="110.0" prefHeight="110.0" prefWidth="200.0" style="-fx-background-color: #2A363F;">
+                     <children>
+                        <Button layoutX="17.0" layoutY="36.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="166.0" styleClass="navButton" stylesheets="@../CSS/main.css" text="Delete Employee (D)" textFill="#d7d7d7">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="220.0" prefHeight="110.0" prefWidth="200.0" style="-fx-background-color: #2A363F;">
+                     <children>
+                        <Button layoutX="17.0" layoutY="36.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="166.0" styleClass="navButton" stylesheets="@../CSS/main.css" text="Update Employee (U)" textFill="#d7d7d7">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="330.0" prefHeight="110.0" prefWidth="200.0" style="-fx-background-color: #2A363F;">
+                     <children>
+                        <Button layoutX="17.0" layoutY="36.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="166.0" styleClass="navButton" stylesheets="@../CSS/main.css" text="Print Employee (P)" textFill="#d7d7d7">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="440.0" prefHeight="110.0" prefWidth="200.0" style="-fx-background-color: #2A363F;">
+                     <children>
+                        <Button layoutX="17.0" layoutY="36.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="166.0" styleClass="navButton" stylesheets="@../CSS/main.css" text="About (I)" textFill="#d7d7d7">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="550.0" prefHeight="110.0" prefWidth="200.0" style="-fx-background-color: #2A363F;">
+                     <children>
+                        <Button layoutX="17.0" layoutY="36.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="38.0" prefWidth="166.0" styleClass="navButton" stylesheets="@../CSS/main.css" text="Exit (Q)" textFill="#d7d7d7">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </Group>
+         </children>
+      </Pane>
+      <Pane layoutX="201.0" prefHeight="660.0" prefWidth="735.0">
+         <children>
+            <TableView fx:id="tableView" layoutX="78.0" layoutY="322.0" prefHeight="264.0" prefWidth="580.0" style="-fx-background-color: transparent;" styleClass="column-header-background" stylesheets="@../CSS/main.css" tableMenuButtonVisible="true">
+              <columns>
+                <TableColumn fx:id="employeeRegistrationNumberProperty" prefWidth="75.0" text="employee registration number" />
+                <TableColumn fx:id="employeeNameProperty" prefWidth="75.0" text="employee-name" />
+                  <TableColumn fx:id="employeeAddressProperty" prefWidth="75.0" text="employee-address" />
+                  <TableColumn fx:id="employeeJoiningDateProperty" prefWidth="75.0" text="employee-phone-number" />
+                  <TableColumn fx:id="employeePhoneNumberProperty" prefWidth="75.0" text="employee-joining" />
+                  <TableColumn fx:id="employeeDesignationProperty" prefWidth="75.0" text="employee-designation" />
+                  <TableColumn fx:id="employeeGradeProperty" prefWidth="75.0" text="employee-grade" />
+                  <TableColumn fx:id="employeeLoanProperty" prefWidth="75.0" text="employee-loan" />
+              </columns>
+            </TableView>
+            <ImageView fitHeight="78.0" fitWidth="185.0" layoutX="276.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Unisalaries-Logo-Dark.png" />
+               </image>
+            </ImageView>
+            <Button id="uploadButton" layoutX="78.0" layoutY="247.0" mnemonicParsing="false" onAction="#listEmployeesButton" prefHeight="38.0" prefWidth="148.0" styleClass="uploadButton" stylesheets="@../CSS/main.css" text="Upload File" textFill="#2a363f">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="uploadFileLabel" layoutX="251.0" layoutY="257.0" text="Please upload your file. " textFill="#2a363f">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

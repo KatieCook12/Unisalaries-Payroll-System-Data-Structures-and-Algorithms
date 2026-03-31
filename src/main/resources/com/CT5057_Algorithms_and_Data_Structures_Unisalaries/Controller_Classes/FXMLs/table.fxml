@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane onKeyPressed="#listButtonKeyEvent" prefHeight="900.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.CT5057_Algorithms_and_Data_Structures_Unisalaries.Controller">
+   <children>
+      <TableView fx:id="tableView" editable="true" layoutX="106.0" layoutY="136.0" prefHeight="428.0" prefWidth="487.0" tableMenuButtonVisible="true">
+        <columns>
+          <TableColumn fx:id="employeeRegistrationNumberProperty" prefWidth="75.0" text="employee_registration_number" />
+          <TableColumn fx:id="employeeNameProperty" prefWidth="75.0" text="employee_name" />
+            <TableColumn fx:id="employeeAddressProperty" prefWidth="75.0" text="employee_address" />
+            <TableColumn fx:id="employeePhoneNumberProperty" prefWidth="75.0" text="employee_phone_number" />
+            <TableColumn fx:id="employeeJoiningDateProperty" prefWidth="75.0" text="employee_joining_date" />
+            <TableColumn fx:id="employeeDesignationProperty" prefWidth="75.0" text="employee_designation" />
+            <TableColumn fx:id="employeeGradeProperty" prefWidth="75.0" text="employee_grade" />
+            <TableColumn fx:id="employeeLoanProperty" prefWidth="75.0" text="employee_loan" />
+        </columns>
+      </TableView>
+      <Button cancelButton="true" layoutX="106.0" layoutY="93.0" mnemonicParsing="false" onAction="#listButton" text="Generate List" />
+      <Label fx:id="fileLabel" layoutX="228.0" layoutY="97.0" prefHeight="17.0" prefWidth="118.0" text="Please Upload a File" />
+      <TextField fx:id="employee_registration_number" layoutX="106.0" layoutY="620.0" />
+      <TextField fx:id="employee_name" layoutX="289.0" layoutY="620.0" />
+      <TextField fx:id="employee_address" layoutX="106.0" layoutY="693.0" />
+      <TextField fx:id="employee_phone_number" layoutX="289.0" layoutY="693.0" />
+      <TextField fx:id="employee_joining_date" layoutX="106.0" layoutY="760.0" />
+      <TextField fx:id="employee_designation" layoutX="289.0" layoutY="760.0" />
+      <TextField fx:id="employee_grade" layoutX="106.0" layoutY="830.0" />
+      <TextField fx:id="employee_loan" layoutX="289.0" layoutY="830.0" />
+      <Button layoutX="522.0" layoutY="621.0" mnemonicParsing="false" onAction="#addEmployee" text="Add Employee" />
+      <Label layoutX="106.0" layoutY="588.0" text="employee_registration_number" />
+      <Label layoutX="290.0" layoutY="588.0" text="employee_name" />
+      <Label layoutX="106.0" layoutY="666.0" text="employee_address" />
+      <Label layoutX="289.0" layoutY="666.0" text="employee_phone_number" />
+      <Label layoutX="106.0" layoutY="736.0" text="employee_joining_date" />
+      <Label layoutX="290.0" layoutY="736.0" text="employee_designation" />
+      <Label layoutX="106.0" layoutY="801.0" text="employee_grade" />
+      <Label layoutX="290.0" layoutY="801.0" text="employee_loan" />
+      <Button layoutX="522.0" layoutY="680.0" mnemonicParsing="false" onAction="#deleteEmployee" text="Delete Employee" />
+      <Button layoutX="520.0" layoutY="747.0" mnemonicParsing="false" onAction="#updateEmployee" text="Update Employee" />
+      <TextField layoutX="258.0" layoutY="35.0" prefHeight="26.0" prefWidth="211.0" />
+      <Label layoutX="198.0" layoutY="39.0" text="Search" />
+      <Button cancelButton="true" layoutX="531.0" layoutY="93.0" mnemonicParsing="false" text="Save File" />
+      <Button layoutX="522.0" layoutY="805.0" mnemonicParsing="false" text="Print Employee" />
+   </children>
+</AnchorPane>

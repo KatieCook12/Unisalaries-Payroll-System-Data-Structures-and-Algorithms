@@ -30,6 +30,9 @@ The system allows users to:
 ### Add Employee
 <img src="images/Main Home Page.png" width="420">
 
+### Search Employee  
+<img src="images/Search Employee.png" width="420">
+
 ### Update Employee
 <img src="images/Update an Employee.png" width="420">
  
@@ -38,9 +41,6 @@ The system allows users to:
 
 ### Delete Employee  
 <img src="images/Delete Employee.png" width="420">
-
-### Search Employee  
-<img src="images/Search Employee.png" width="420">
 
 ---
 

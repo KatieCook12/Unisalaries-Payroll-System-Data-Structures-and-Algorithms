@@ -21,12 +21,26 @@ The system allows users to:
 
 ## 🖥 Application Screenshots
 
-- Login Screen  
-- Main Dashboard  
-- Add Employee  
-- Update Employee  
-- Print Payslip  
-- Delete Employee  
+### Login Screen
+<img src="images/Login Page.png" width="420">
+ 
+### Main Dashboard
+<img src="images/Main Home Page.png" width="420">
+
+### Add Employee
+<img src="images/Main Home Page.png" width="420">
+
+### Update Employee
+<img src="images/Update an Employee.png" width="420">
+ 
+### Print Payslip
+<img src="images/Print Employee.png" width="420">
+
+### Delete Employee  
+<img src="images/Delete Employee.png" width="420">
+
+### Search Employee  
+<img src="images/Search Employee.png" width="420">
 
 ---
 
